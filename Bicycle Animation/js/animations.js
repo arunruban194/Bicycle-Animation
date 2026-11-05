@@ -15,4 +15,9 @@ const ANIMATIONS = [
         title: 'Hard Work',
         create: (canvas, onComplete) => new AnimationController(canvas, onComplete),
     },
+    {
+        number: 2,
+        title: 'Big Jump',
+        create: (canvas, onComplete) => new BigJump(canvas, onComplete),
+    },
 ];
